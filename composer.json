@@ -20,6 +20,8 @@
   },
   "require-dev": {
     "orchestra/testbench": "^v7.5.0",
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-laravel": "^1.2",
     "phpstan/extension-installer": "^1.1",
     "phpstan/phpstan-deprecation-rules": "^1.0",
     "phpstan/phpstan-phpunit": "^1.0"
@@ -41,7 +43,11 @@
     "test-coverage": "vendor/bin/pest --coverage"
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "phpstan/extension-installer": true
+    }
   },
   "extra": {
     "laravel": {
