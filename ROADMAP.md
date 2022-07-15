@@ -4,5 +4,7 @@
 - Initial release
 
 ## Version 1.1.0
-- Use larastan for code analysis
+- Use Larastan for code analysis instead of php stan
 
+## Version 1.2.0
+- Use php pest for testing
