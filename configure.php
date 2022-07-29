@@ -153,7 +153,7 @@ $className = ask('Class name', $className);
 $variableName = lcfirst($className);
 $description = ask('Package description', "This is my package {$packageSlug}");
 
-$usePhpStan = confirm('Enable PhpStan?', true);
+$usePhpStan = confirm('Enable LaraStan?', true);
 $usePhpCsFixer = confirm('Enable PhpCsFixer?', true);
 $useUpdateChangelogWorkflow = confirm('Use automatic changelog updater workflow?', true);
 
